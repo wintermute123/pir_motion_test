@@ -1,3 +1,4 @@
+#test of gpiozero library to control led
 from gpiozero import LED
 from time import sleep
 

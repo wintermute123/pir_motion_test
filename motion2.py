@@ -1,3 +1,4 @@
+#turn on PIR.  When Motion Detected, turn on camera for 5 seconds
 import RPi.GPIO as GPIO
 import time
 import os
