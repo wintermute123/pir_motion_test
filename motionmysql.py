@@ -37,7 +37,7 @@ def MOTION(PIR_PIN):
     print "Motion Detected!   "
     print "PIR Module Test (CTRL+C to exit):"
 
-    os.system("raspistill -t 60000 -tl 5000 -vf -o /home/pi/images/images%d.jpg  -h 480 -w 640")
+    os.system("raspistill -t 60000 -tl 5000 -vf -o /home/pi/images/images%d.jpg -dt  -h 480 -w 640")
     #    time.sleep(2)
     print "Ready"
     GPIO.output(4,0)
