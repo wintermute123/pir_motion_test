@@ -12,7 +12,7 @@ GPIO.setup(4,GPIO.OUT)
 def MOTION(PIR_PIN):
     GPIO.output(4,1)
 
-    cnx = mysql.connector.connect(user='root', password='Marlboro123',
+    cnx = mysql.connector.connect(user='ROOT', password='Marlboro123',
                                   host='192.168.1.19',
                                   database='raspiquarium')
     cursor = cnx.cursor()
